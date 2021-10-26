@@ -1,0 +1,32 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RiyoGInting/rest-api.git"
+  },
+  "author": "Riyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RiyoGInting/rest-api/issues"
+  },
+  "homepage": "https://github.com/RiyoGInting/rest-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.2",
+    "nodemon": "^2.0.14",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^6.8.0",
+    "validator": "^13.6.0"
+  }
+}
